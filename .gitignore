@@ -1,0 +1,33 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Environment
+.env
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Ansible
+*.retry
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jenkins
+secrets/
+jenkins_home/
+
+# Kubernetes
+kubeconfig
+
+# Logs
+*.log
+*.pem

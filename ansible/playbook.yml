@@ -1,0 +1,7 @@
+- hosts: jenkins
+  become: yes
+
+  roles:
+    - common
+    - docker
+    - jenkins
