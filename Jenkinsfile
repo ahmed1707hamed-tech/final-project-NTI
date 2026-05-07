@@ -9,7 +9,8 @@ pipeline {
 
         stage('Clone') {
             steps {
-                git 'https://github.com/ahmed1707hamed-tech/final-project-NTI.git'
+                git branch: 'main',
+                url: 'https://github.com/ahmed1707hamed-tech/final-project-NTI.git'
             }
         }
 
